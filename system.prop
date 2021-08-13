@@ -40,6 +40,7 @@ ro.config.sdha_apps_bg_min=8
 # Radio
 ro.vold.umsdirtyratio=20
 ro.ril.disable.power.collapse=0
+ro.telephony.iwlan_operation_mode=legacy
 
 # Power Saver
 power.saving.mode=1
