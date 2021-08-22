@@ -378,6 +378,8 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service
 
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
