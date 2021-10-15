@@ -1,3 +1,9 @@
+# ART
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.dex2oat-minidebuginfo=false
+dalvik.vm.minidebuginfo=false
+ro.vendor.qti.am.reschedule_service=true
+
 # Audio
 persist.bluetooth.a2dp_offload.disabled=false
 ro.bluetooth.a2dp_offload.supported=true
@@ -41,6 +47,7 @@ ro.config.sdha_apps_bg_min=8
 ro.vold.umsdirtyratio=20
 ro.ril.disable.power.collapse=0
 ro.telephony.iwlan_operation_mode=legacy
+persist.vendor.qti.telephony.vt_cam_interface=2
 
 # Power Saver
 power.saving.mode=1
