@@ -52,7 +52,3 @@ persist.vendor.qti.telephony.vt_cam_interface=2
 # Power Saver
 power.saving.mode=1
 pm.sleep_mode=1
-
-# Havoc
-ro.havoc.maintainer=AkhilMsAchu
-
