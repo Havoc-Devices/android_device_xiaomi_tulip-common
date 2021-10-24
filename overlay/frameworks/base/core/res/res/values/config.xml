@@ -265,6 +265,12 @@
         autodetected from the Configuration. -->
     <!-- <bool name="config_showNavigationBar">true</bool> -->
 
+    <!-- The list of components which should be automatically disabled for a specific package. -->
+    <string-array name="config_disabledComponents" translatable="false">
+        <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
+        <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
+    </string-array>
+
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
 
