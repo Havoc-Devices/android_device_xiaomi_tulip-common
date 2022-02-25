@@ -28,9 +28,6 @@ persist.sys.fflag.override.settings_network_and_internet_v2=true
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
-# Allow carrier tethering
-net.tethering.noprovisioning=true
-
 # Blur
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
